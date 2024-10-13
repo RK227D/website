@@ -5,7 +5,7 @@ from PIL import Image
 st.set_page_config(page_title="Logo Design by [Your Name]", page_icon="🎨")
 
 # Load images for the portfolio
-portfolio_images = ("nothing")
+portfolio_images = ("nothin")
   
 
 # Define functions for each page
