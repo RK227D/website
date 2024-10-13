@@ -1,5 +1,5 @@
 import streamlit as st
-streamlit run app.py
+
 
 # Set up the page configuration
 st.set_page_config(page_title="Logo Design by [Your Name]", page_icon="🎨")
