@@ -5,11 +5,8 @@ from PIL import Image
 st.set_page_config(page_title="Logo Design by [Your Name]", page_icon="🎨")
 
 # Load images for the portfolio
-portfolio_images = {
-    "Logo 1": "path/to/logo1.png",
-    "Logo 2": "path/to/logo2.png",
-    "Logo 3": "path/to/logo3.png",
-}
+portfolio_images = ("nothing")
+  
 
 # Define functions for each page
 def home():
