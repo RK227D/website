@@ -1,17 +1,11 @@
 import streamlit as st
-from PIL import Image
 
 # Set up the page configuration
 st.set_page_config(page_title="Logo Design by [Your Name]", page_icon="🎨")
 
-# Load images for the portfolio
-
-  
-
 # Define functions for each page
 def home():
     st.title("Welcome to My Logo Design Studio")
-    st.image("path/to/hero_image.jpg", use_column_width=True)
     st.write("""
     I specialize in creating unique and memorable logos that truly capture your brand's essence.
     Explore my portfolio to see my work or get in touch to discuss your project!
@@ -19,11 +13,15 @@ def home():
 
 def portfolio():
     st.title("My Portfolio")
-    cols = st.columns(3)
-    for i, (title, img_path) in enumerate(portfolio_images.items()):
-        with cols[i % 3]:
-            img = Image.open(img_path)
-            st.image(img, caption=title, use_column_width=True)
+    st.write("""
+    Here are some of the logos I have designed:
+    
+    - **Logo 1**: A modern take on a classic design.
+    - **Logo 2**: A minimalistic approach that stands out.
+    - **Logo 3**: A vibrant and colorful representation of creativity.
+    
+    Feel free to ask about any of these designs!
+    """)
 
 def about():
     st.title("About Me")
